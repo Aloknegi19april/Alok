@@ -1,0 +1,13 @@
+.profile_avatar
+{
+    height: 200px;
+    width : 200px;
+    border-radius: 50%;
+}
+
+.studies-table
+{
+  padding: 10px;
+  margin: 10px;
+
+}
