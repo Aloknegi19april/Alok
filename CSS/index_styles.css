@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  background-color: #F5F5F5;
 }
 
 h1 {
@@ -56,6 +57,13 @@ a:hover {
   color: #FC5185;
 }
 
+.profile-navbar-img {
+  height: 3.125em;
+  width: 3.125em;
+  border-radius: 50%;
+  margin-right: 0.375em;
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
@@ -65,17 +73,16 @@ a:hover {
 .cloud-above {
   position: absolute;
   right: 15.625em;
-  top: 1.25em;
+  bottom: 0.625em;
 }
 
 .mountain {
-  padding-top: 6.25em;
+  padding-top: 4.6875em;
 }
 
 .cloud-below {
   position: absolute;
   left: 15.625em;
-  bottom: 25.625em;
   margin: 0;
 }
 
@@ -102,6 +109,7 @@ a:hover {
 
 .namaste-h2 {
   font-family: 'Laila', serif;
+  margin-top: 0.625em;
 }
 
 .code-img {
@@ -113,24 +121,23 @@ a:hover {
   padding-top: 0.625em;
   padding-bottom: 0.625em;
   font-family: 'Fondamento', cursive;
+  text-align: center;
 }
 
 .skill-row {
   width: 50%;
-  margin: 3.125em auto 6.25em auto;
-  text-align: left;
+  margin: 3.125em auto 3.125em auto;
+  text-align: center;
 }
 
 .skills-img {
-  width: 25%;
-  float: left;
-  margin-right: 1.875em;
+  height: 12.5em;
+  width: 12.5em;
 }
 
 .camera-img {
-  width: 30%;
-  float: right;
-  margin-left: 1.875em;
+  height: 15em;
+  width: 15em;
 }
 
 .git-project {

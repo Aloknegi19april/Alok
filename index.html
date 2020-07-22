@@ -3,6 +3,15 @@
 
 <head>
   <meta charset="utf-8">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
   <link rel="stylesheet" href="CSS/index_styles.css">
   <link rel="icon" href="Images/favicon.ico">
   <link rel="stylesheet" href=" https://fonts.googleapis.com/css2?family=Fondamento&family=Italianno&family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap">
@@ -12,65 +21,210 @@
 </head>
 
 <body>
-  <div class="top-container">
-    <img class="cloud-above" src="Images/cloud.png" alt="cloud-img">
-    <h1>Hey I'm Alok </h1>
-    <p class="programmer">a Programmer.</p>
-    <img class="cloud-below" src="Images/cloud.png" alt="cloud-img">
-    <img class="mountain" src="Images/background.png" alt="background-img">
 
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <a class="navbar-brand" href="https://aloknegi19april.github.io/cv"><img class="profile-navbar-img" src="Images/alok.jpeg" alt="profile">Alok Negi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+      <ul class="navbar-nav ml-auto">
+        <li class="na vbar-item"><a class="nav-link" href="#navbar-profile">Profile</a></li>
+        <li class="navbar-item"><a class="nav-link" href="#navbar-skills">Skills</a></li>
+        <li class="navbar-item"><a class="nav-link" href="#navbar-contact">Contact</a></li>
+      </ul>
+    </div>
+
+  </nav>
+
+
+  <div class="top-container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <img class="cloud-above" src="Images/cloud.png" alt="cloud-img">
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h1>Hey I'm Alok </h1>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p class="programmer">a Programmer.</p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <img class="cloud-below" src="Images/cloud.png" alt="cloud-img">
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <img class="mountain" src="Images/background.png" alt="background-img">
+      </div>
+
+    </div>
+
+    <br>
+    <br>
   </div>
 
   <div class="middle-container">
-    <div class="profile">
-      <img class="profile-img" src="Images/alok.jpeg" alt="profile">
-      <h2 class="namaste-h2">नमस्ते <img class="namaste-img" src="Images/namaste.png" /></h2>
-      <p>I am a Web Developer.&nbsp;&nbsp;<img class="code-img" src="Images/code.png" /><br>
-        Graduated in Computer Science and Engineering from Graphic Era Hill University.&nbsp;&nbsp;<img class="code-img" src="Images/student.png" /> </p>
+    <div class="profile" id="navbar-profile">
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <img class="profile-img" src="Images/alok.jpeg" alt="profile">
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <h2 class="namaste-h2">नमस्ते <img class="namaste-img" src="Images/namaste.png" /></h2>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <p>I am a Web Developer.&nbsp;&nbsp;<img class="code-img" src="Images/code.png" /></p>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <p> Graduated in Computer Science and Engineering from Graphic Era Hill University.&nbsp;&nbsp;<img class="code-img" src="Images/student.png" /> </p>
+        </div>
+
+      </div>
+
+
+
+
     </div>
   </div>
   <hr>
 
-  <div class="skills">
-    <h2>My Skills</h2>
-    <div class="skill-row">
-      <img class="skills-img" src="Images/skills.png" alt="Skills">
+  <div class="skills" id="navbar-skills">
 
-      <h3>Design & Development</h3>
-      <p>I am coding from past 6 years. And I want to build my own product that should be used by millions of people.</p>
-      <!-- <div class="projects">
-        <a href="#">
-          <span class="git-project">Check My Work at .</span>
-          <img class="git-social" src="Images/github.png" />
-        </a>
-      </div> -->
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h2>My Skills</h2>
+      </div>
 
     </div>
 
+    <div class="skill-row">
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <img class="skills-img" src="Images/skills.png" alt="Skills">
+
+        </div>
+        <div class="col-lg-8 col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <br>
+              <h3>Design & Development</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <p>I am coding from past 6 years. And I want to build my own product that should be used by millions of people.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
     <div class="skill-row">
-      <img class="camera-img" src="Images/camera.png" alt="">
-      <h3>Photography</h3>
-      <p>I like clicking photographs and editing them. I use different tools like Adobe Lightroom and Snapseed.</p>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <img class="camera-img" src="Images/camera.png" alt="">
+
+        </div>
+        <div class="col-lg-8 col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <br>
+              <h3>Photography</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <p>I like clicking photographs and editing them. I use different tools like Adobe Lightroom and Snapseed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+
   </div>
 
   <hr>
 
-  <div class="contact-me">
-    <h2>Get In Touch</h2>
-    <h4>If you love Space Science as much as I do.</h4>
-    <p class="contact-lines">Love space Science as much as I do? Let's Talk about how vast it is! We can code while we discuss about it!!!</p>
+  <div class="contact-me" id="navbar-contact">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h2>Get In Touch</h2>
+      </div>
 
-    <p><a class="btn" href="mailto:aloknegi19april@gmail.com">Contact Me</a></p>
+    </div>
 
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <h4>If you love Space Science as much as I do.</h4>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p class="contact-lines">Love space Science as much as I do?</p>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p class="contact-lines">Let's Talk about how vast it is! We can code while we discuss about it!!!</p>
+      </div>
+
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p><a class="btn" href="mailto:aloknegi19april@gmail.com">Contact Me</a></p>
+      </div>
+
+    </div>
     <div class="bottom-container">
-      <a href="mailto:aloknegi19april@gmail.com"><img class="social" src="Images/gmail.png" /></a>
-      <a href="https://www.instagram.com/aloknegi19april/"><img class="social" src="Images/instagram.png" /></a>
-      <a href="https://twitter.com/alok_negi1904"><img class="social" src="Images/twitter.png" /></a>
-      <a href="https://www.linkedin.com/in/alok-negi-407515161/"><img class="social" src="Images/linkedin.png" /></a>
-      <p class="copyright">&copy; Alok Negi @ <a href="https://aloknegi19april.github.io/cv">aloknegi19april.io</a></p>
+
+      <div class="row">
+        <div class="col-lg-12 col-sm-12 col-md-12"><a href="mailto:aloknegi19april@gmail.com"><img class="social" src="Images/gmail.png" /> Gmail&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <a href="https://www.instagram.com/aloknegi19april/"><img class="social" src="Images/instagram.png" />Instagram</a>
+          <a href="https://twitter.com/alok_negi1904"><img class="social" src="Images/twitter.png" />Twitter&nbsp;&nbsp;</a>
+          <a href="https://www.linkedin.com/in/alok-negi-407515161/"><img class="social" src="Images/linkedin.png" />LinkedIn&nbsp;</a></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <p class="copyright">&copy; Alok Negi @ <a href="https://aloknegi19april.github.io/cv">aloknegi19april.io</a></p>
+        </div>
+
+      </div>
     </div>
+
 
   </div>
 
